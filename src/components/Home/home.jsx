@@ -27,7 +27,7 @@ const Home = () => {
 
           <div className="post">
             <img
-              src="http://www.saraswatihospitals.com/wp-content/uploads/2019/08/obstetrics-and-gynecology-inner.jpg"
+              src="https://i0.wp.com/www.shriramsinghhospital.com/blog/wp-content/uploads/2022/09/Gynecologist-in-Noida.jpg?w=1000&ssl=1"
               alt="Dentist"
             />
             <p className="post-head">Gynecologist/Obstetrician</p>
