@@ -1,0 +1,148 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.back {
+  padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+  border: 1px solid black;
+  border-radius: 3px;
+  position: absolute;
+  font-size: 1.5rem;
+  top: 2rem;
+  left: 5%;
+  cursor: pointer;
+}
+.conatiner {
+  display: flex;
+  flex-direction: column;
+  margin: 5rem 5% 5rem 5%;
+  align-items: center;
+}
+.wrapper-dentist {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+.doctor-details {
+  display: flex;
+  width: 100%;
+  padding-top: 3rem;
+  margin-top: 3rem;
+  border-top: 1px solid rgb(236, 232, 232);
+}
+.imageconatiner {
+  display: flex;
+  width: 20%;
+  justify-content: center;
+  /* align-items: center; */
+}
+.doctor-details img {
+  height: 12rem;
+  max-width: 12rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.check {
+  position: absolute;
+  margin-top: 9rem;
+  margin-left: 9rem;
+  background-color: purple;
+  border-radius: 50%;
+  color: white;
+  font-size: 1.5rem;
+}
+.information {
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.name {
+  margin: 0;
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #52a7dc;
+}
+.type {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin: 0;
+  margin-top: 0.5rem;
+  color: rgb(92, 92, 92);
+}
+.experience {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin: 0;
+  margin-top: 0.5rem;
+  color: rgb(92, 92, 92);
+}
+.loaction {
+  display: flex;
+}
+.address {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 0;
+  margin-top: 0.8rem;
+  margin-right: 0.6rem;
+}
+.clinicname {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin: 0;
+  margin-top: 0.8rem;
+  color: rgb(92, 92, 92);
+}
+.charges {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin: 0;
+  margin-top: 0.5rem;
+  color: rgb(92, 92, 92);
+}
+.rating {
+  display: flex;
+  margin-top: 1.2rem;
+}
+.stars {
+  background-color: #4ca628;
+  padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+  color: white;
+  font-weight: bold;
+  border-radius: 3px;
+}
+.stories {
+  padding: 0.2rem 0.5rem 0.2rem 0.8rem;
+  text-decoration: underline;
+  cursor: pointer;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 25%;
+}
+.avilability {
+  padding: 0.2rem 0.5rem 0.2rem 0.8rem;
+  color: #4ca628;
+  cursor: pointer;
+  font-weight: 500;
+}
+.btn {
+  margin-top: 1rem;
+  width: 15rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  background-color: #3c9fda;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.2rem;
+  color: white;
+  width: 100%;
+  cursor: pointer;
+}
